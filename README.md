@@ -34,7 +34,7 @@ On MacOS, the default headers are too old; you can use newer headers for
 building but still use the normal system libraries.
 
 * FreeBSD: `export CC=gcc48; go install`
-* MacOS: `brew install homebrew/dupes/heimdal --without-x11`
+* MacOS: `brew install heimdal`
 * Ubuntu: see `apt-get` in `test/docker/client/Dockerfile`
 
 ## Testing
